@@ -1,10 +1,12 @@
 ## MultipleScriptFunctions
+
 Starting scripts in a new interpreter context within a single App.
 
 ### Description
+
 This sample shows how to use the function Script.startScript to start additional scripts within an App and how these scripts can serve and call functions.
 The script main.lua starts two additional scripts, ServingFunction.lua and CallingFunction.lua. Each scripts runs in its own independent interpreter and
-task context without the need of having multiple Apps. Communication between the scripts is done via served functions and events. 
+task context without the need of having multiple Apps. Communication between the scripts is done via served functions and events.
 
 Then running the app the ServingFunction.lua serves a function which is then called by CallingFunction.lua
 periodically.
@@ -26,10 +28,12 @@ specific script to be debugged to a require() to make it execute
 directly in the context of the main script of the app.
 
 ### How to Run
+
 Minimum AppEngine version: 2.10
 
 ### Topics
-Programming-Pattern, Sample, SICK-AppSpace
+
+programming-pattern, sample, sick-appspace
 
 
 
